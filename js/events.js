@@ -11,8 +11,8 @@ function frameIt(){
 }
 
 function pressIt(){
-  $("form input:first-child").on("keydown", function(){
-    
+  $("form").on("keydown", function(){
+    if($("input:first").val()=== "")
   })
 }
 
