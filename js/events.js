@@ -11,7 +11,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $("form").on("keydown", function(){
+  $("form input:first-child").on("keydown", function(){
     
   })
 }
