@@ -12,8 +12,10 @@ function frameIt(){
 
 function pressIt(){
   $("form").on("keydown", function(){
-    if($("input:first").val()=== "")
-  })
+    if($("input:first").val()=== 71){
+      alert("You have pressed the G key.");
+    }
+  });
 }
 
 $(document).ready(function(){
